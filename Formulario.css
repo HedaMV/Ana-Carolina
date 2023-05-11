@@ -1,0 +1,92 @@
+fieldset {
+    border: 3px solid rgb(144, 55, 39);
+    border-radius: 10px;
+}
+legend {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: tomato;
+}
+.box {
+    color: tomato;
+    background-color: rgb(97, 97, 255);
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    width: 30%;
+}
+body {
+    background-color: gainsboro;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+input#enviar {
+    color: purple;
+    background-color: salmon;
+    border-radius: 10px;
+    border-style: none;
+    height: 30px;
+    width: 130px;
+}
+input#enviar:hover {
+    color: rgb(218, 0, 218);
+    background-color: rgb(255, 171, 162);
+    cursor: pointer;
+    height: 35px;
+    width: 135px;
+}
+.inputBox {
+    position: relative;
+}
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelinput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: 5px;
+}
+
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 20px;
+    color:mediumblue;
+}
+
+#data_nascimento{
+  border:none;
+  padding: 8px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+#enviar{
+  background-image: linear-gradient(to right, rgb(0,92,192), rgb(90,20,220));
+  width: 100%;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#enviar.hover{
+  background-image: linear-gradient(to right, rgb(0, 92, 192), rgb(90, 20, 195));
+}
