@@ -1,0 +1,65 @@
+body{
+    background-image: linear-gradient(.25turn, rgb(28, 0, 80), rgb(17, 0, 32));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box{
+    color:rgb(140, 0, 255);
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to top,#3b2153, #271f31);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+}
+
+fieldset{
+    border: 3px solid rgb(89, 0, 255);
+}
+
+legend{
+    border: 5px solid rgb(89, 0, 255);    
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(48, 0, 138, 0.87)
+
+}
+
+.inputBox{
+    position:relative;
+}
+.inputUser{
+    background:none;
+    border:none;
+    border-bottom: 1px solid rgb(102, 83, 148);
+    outline: none;
+    color:rgb(76, 0, 255);
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelinput{/* animação das labels - nessa parte, as labels irão
+    se encaixar dentro dos inputs*/
+position: absolute; /* vai ocupar apenas o elemento dela mesma */
+top: 0px;
+left: 0px;
+pointer-events:none;/* qualquer lugar que eu clicar dentro
+                do input, ele vai executar a ação */
+transition: 5px;
+}
+
+/*Quando clicar no input eu quero que a label vai para cima
+do input - por isso a ação é no input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput{ /*qdo o input tiver válido, eu quero
+                        que ele execute essa ação para a
+                        label - a informação irá permanecer
+                        no input, senão irá ficar por cima*/
+top: -20px;
+font-size: 20px;
+color: rgb(140, 0, 255);
+}
