@@ -1,0 +1,94 @@
+
+:root{
+    --cor-de-fundo:rgb(19, 85, 7);
+    --branco:#298195;
+    --degrade:linear-gradient(rgb(214, 4, 214), rgb(33, 1, 33) ); 
+    --cor-de-fundo: white;
+    --cor-cabecalho: rgba(0, 0, 255, 0.644);
+    --fonte-tit: "fish";
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight: 400px;
+}
+.cab{
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 5px;
+}
+.conteiner{
+    display: flex;
+    align-items: start;
+    cursor: pointer;
+}
+.conteiner_botao{
+    display:none;
+}
+.cab_menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+.lista_menu{
+  display: none;
+  position: absolute;
+  top: 90%;
+  background-color: #3C39B7;
+  width: 40vw;  
+}
+.img {
+    width: 100%;
+    height: 200px;
+}
+.lista_menu_tit{
+    color:#ffffff;
+    font-weight: 800px;
+}
+.conteiner_botao:checked~.lista_menu{
+    display: block;
+}
+.lista-menu_titulo, .lista-menu_item{
+    padding: 1em;
+}
+h1{
+    font-weight: normal;
+}
+.cabecalho{
+    background-color: var(--cor-cabecalho);
+}
+.conteiner_text{
+    display: flex;
+    align-items: center;
+}
+.conteiner_img, .conteiner_tit, .conteiner_tit{
+    padding: 1em;
+} 
+.conteiner_frase{
+    display: none;
+    margin-left: 20px;
+    vertical-align: center;
+    margin-top: 20px;
+    font-family: Bigelow rules;
+    size-adjust: ;
+}
+@media screen and (min-width:820px){
+    .img{
+        font-size: 30px;
+    }
+    .img{
+        display: block;
+    }
+}
+@media screen and (min-width:1024px){
+    .conteiner_frase{
+        display: block;
+        font-size: 20px;
+    }
+}
