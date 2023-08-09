@@ -1,7 +1,7 @@
 
 :root{
     --cor-de-fundo:rgb(19, 85, 7);
-    --branco:#298195;
+    --branco: #000000;
     --degrade:linear-gradient(rgb(214, 4, 214), rgb(33, 1, 33) ); 
     --cor-de-fundo: white;
     --cor-cabecalho: rgba(0, 0, 255, 0.644);
@@ -45,7 +45,7 @@ body{
 }
 .img {
     width: 100%;
-    height: 200px;
+    height: 100px;
 }
 .lista_menu_tit{
     color:#ffffff;
@@ -76,7 +76,7 @@ h1{
     vertical-align: center;
     margin-top: 20px;
     font-family: Bigelow rules;
-    size-adjust: ;
+    color: white;
 }
 @media screen and (min-width:820px){
     .img{
@@ -89,6 +89,6 @@ h1{
 @media screen and (min-width:1024px){
     .conteiner_frase{
         display: block;
-        font-size: 20px;
+        font-size: 100px;
     }
 }
