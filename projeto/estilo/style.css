@@ -78,6 +78,15 @@ h1{
     font-family: Bigelow rules;
     color: white;
 }
+.conteiner_tit{
+    display: none;
+    margin-left: 20px;
+    vertical-align: center;
+    margin-top: 20px;
+    font-family: Bigelow rules;
+    color: white;
+}
+
 @media screen and (min-width:820px){
     .img{
         font-size: 30px;
@@ -85,10 +94,18 @@ h1{
     .img{
         display: block;
     }
+    .conteiner_tit{
+        display: block;
+        font-size: 50px;
+    }
 }
 @media screen and (min-width:1024px){
-    .conteiner_frase{
+    .conteiner_tit{
         display: block;
         font-size: 100px;
+    }
+    .conteiner_frase{
+        display: block;
+        font-size: 60px;
     }
 }
