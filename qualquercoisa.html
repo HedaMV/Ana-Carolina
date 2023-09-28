@@ -1,0 +1,38 @@
+/<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <style>body{
+        background-color: rgba(0, 0, 255, 0.315);
+        color:rgb(255, 255, 255);}</style>
+</head>
+<body>
+    <h1>Oĺa DOM</h1>
+    <p class="par1"> Aqui é <u>paragráfo 1</u><p>
+    <p name="par2"> Estudando <strong>DOM</strong> no JavaScript </p>
+    <div id="div1"><i>Clique no LInk --></i></div>
+    <script>
+        //Tag
+        var p1=window.document.getElementsByTagName("p")[1]
+        p1.style.color = "purple"
+        window.document.writeln("Manipuland por tag =" +p1.innerText +"<br>")
+        window.alert(p1.innerHTML)
+        window.alert(innerText)
+
+        //ID
+        var d = window.document.getElementById("div1")
+        d.style.color = "Green"
+        
+        window.document.writeln("Manipulado por Tag =" +d.innerHTML +"<br>")
+        d.style.backgroundColor = "purple"
+
+        //Object by Class
+        var par=window.document.getElementsByClassName("par1")[0]
+        window.document.write("Manipulando pela Classe =" +par.innerText +"<br>")
+        window.document.write("Manipulando pela Classe =" +par.innerHTML +"<br>")
+
+        //NOMO
+        var nm= window.di
+    </script>
+</body>
