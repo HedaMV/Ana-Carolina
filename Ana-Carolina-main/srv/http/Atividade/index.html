@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UFT-8">
+        <meta name="viewport" content="width=divice-width, inicial-scale=1.0">
+        <title>Atividade</title>
+        <link rel="stylesheet" href="CSS/estilo.css">
+    </head>
+<body>
+        <h1>Atividade</h1>
+        <div class="pcentral">
+            <form action="PHP/abs.php" method="get">
+                <fieldset>
+                    <legend><br>Funcao abs<br></legend>
+                    <p>Retorna o valor absoluto de um numero. Esse valor e o numero sem o seu sinal</p>
+                    <label>Informe o valor para retornar o seu numero real.</label>
+                    <input type="number" name="abs" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/hip.php" method="get">
+                <fieldset>
+                    <legend><br>Funcao hipotenusa<br></legend>
+                    <p>O teorema de Pitagoara diz que o quadrado da hiportenusa e igual a soma dos quadrados doscatetos.
+                        a2 = b2 + c2 onde: a e hipotenusa, b o cateto 1 e o c cateto 2</p>
+                    <label>Informe cateto1</label><br>
+                    <input type="number" name="cat1" id="idadejs">
+                    <br><br>
+                    <label>Informe cateto2</label><br>
+                    <input type="number" name="cat2" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <br><br>
+        <div class="pcentral">
+            <form action="PHP/base_convert.php" method="a37334">
+                <fieldset>
+                    <legend><br>Conversao de Base<br></legend>
+                    <p>Esta tecnica consiste em dividir o numero original pela base 2, o resto da divisao sera um digito e o resultado da divisao e novamente dividido por 2. Esta ultima etapa se repete ate que o resultado da divisao seja zero.</p>
+                    <label>Informe a base</label>
+                    <input type="number" name="cat2" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/indvit.php" method="$dividend ">
+                <fieldset>
+                    <legend><br>Divisao de inteiros<br></legend>
+                    <p>Para multiplicar ou dividir numeros inteiros, a principio, as operacoes devem ser realizadas considerando apenas seus valores. O resultado sera positivo ou negativo, dependendo apenas dos sinais serem iguais ou diferentes. Ao multiplicar ou dividir numeros inteiros de mesmo sinal o resultado sera sempre positivo.</p>
+                    <label>Informe dividendo</label><br>
+                    <input type="number" name="divid" id="idadejs">
+                    <br><br>
+                    <label>Informe divisor</label><br>
+                    <input type="number" name="div" id="idadejs">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="pcentral">
+            <form action="PHP/max.php" method="post">
+                <fieldset>
+                    <legend><br>Maximo de dois numeros<br></legend>
+                    <p>Pelo exemplo, entre os numeros 10 e 15 temos o numero 5 como maior numero que aparece na lista de divisores, assim: MDC (10, 15) = 5. E a mesma ideia vale para os numeros 10 e 20, que possuem o 10 como maior numero comum na lista de divisores, logo: MDC (10, 20) = 10.</p>
+                    <label for="values">Digite os valores separados por virgula:</label>
+                    <input type="text" id="values" name="values">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                    <br><br>
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/pow.php" method="post">
+                <fieldset>
+                    <legend><br>Expressao exponencial<br></legend>
+                    <p>A lei de formacao da funcao exponencial e f(x) = ax, podendo gerar um grafico crescente ou decrescente, dependo do valor da base “a”. A funcao inversa da funcao exponencial e a função logaritmica.</p>
+                    <br>
+                    <label>Informe a base</label><br>
+                    <input type="number" name="base" id="base">
+                    <br><br>
+                    <label>Informe o expoente</label><br>
+                    <input type="number" name="exponent" id="exponent">
+                    <br><br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="pcentral">
+            <form action="PHP/min.php" method="post">
+                <fieldset>
+                    <legend><br>Minimo de dois numeros<br></legend>
+                    <p>Para calcular o MMC (121,2), inicialmente vamos decompor em fatores primos o numero e, em seguida, multiplicar esses fatores. O resultado da multiplicacao sera o MMC. Assim, o MMC (121,2) = 2 ·11 ·11 = 242.</p>
+                    <br>
+                    <label for="values">Digite os valores separados por virgula:</label>
+                    <input type="text" id="values" name="values">
+                    <br> 
+                    <br>                
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/pi.php" method="post">
+                <fieldset>
+                    <legend><br>Pi<br></legend>
+                    <p>Se medirmos toda a volta de um circulo com fita metrica obtemos a medida do seu perimetro. O diametro, por sua vez, e a medida obtida de uma extremidade a outra desse circulo, passando pelo centro. Dividindo a medida do perímetro pela medida do diametro, o resultado sera o numero pi.</p>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="pcentral">
+            <form action="PHP/sin.php" method="post">
+                <fieldset>
+                    <legend><br>Seno<br></legend>
+                    <p>Seno de um angulo e a relacao do cateto oposto com a hipotenusa, ou seja: Sen θ = cateto oposto/hipotenusa.A funcao seno e considerada uma funcao impar, pois ha uma simetria no grafico em relacao a bissetriz dos quadrantes impares. Quando uma funcao e considerada impar, temos que f (x) = -f (x), ou seja, sen (-x) = -sen (x).</p>
+                    <br>
+                    <label for="angle">Digite o valor do angulo em graus:</label>
+                    <input type="number" id="angle" name="angle">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/cons.php" method="post">
+                <fieldset>
+                    <legend><br>Cosseno<br></legend>
+                    <p>Cosseno de um angulo e relacao do cateto adjacente com a hipotenusa, ou seja: Cos 0 = cateto adjacente/hipotenusa.Observe que apenas dois lados e um angulo do triangulo podem ser usados nas razoes trigonometricas. Se um desses lados for a hipotenusa e o outro nao tocar o angulo em questao, a razao sera seno. Se um dos lados for a hipotenusa e o outro tocar o angulo em questao, a razao sera cosseno.</p>
+                    <br>
+                    <label for="angle">Digite o valor do angulo em graus:</label>
+                    <input type="number" id="angle" name="angle">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="pcentral">
+            <form action="PHP/tan.php" method="post">
+                <fieldset>
+                    <legend><br>tangente<br></legend>
+                    <p>Para calcular a tangente, usamos a formula tg A=sen Acos A, usada para o calculo da tangente de qualquer angulo.A tangente de um angulo e a unica razao que nao envolve a medida da hipotenusa. Ela e dada pela razao entre a medida do cateto oposto e a medida do cateto adjacente ao angulo 0.</p>
+                    <br>
+                    <label for="angle">Digite o valor do angulo em graus:</label>
+                    <input type="number" id="angle" name="angle">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+        <div class="pcentral">
+            <form action="PHP/sqrt.php" method="post">
+                <fieldset>
+                    <legend><br>Raiz Quadrada<br></legend>
+                    <p>Se trata da operacao inversa da potenciacao. Assim, calcular a raiz quadrada de um numero n e descobrir qual numero elevado ao quadrado resulta em n. Por exemplo, a raiz quadrada de 9 e igual a 3, pois, 3 elevado a 2 e 9.</p>
+                    <br>
+                    <label for="number">Digite o numero para calcular a raiz quadrada:</label>
+                    <input type="number" id="number" name="number">
+                    <br>
+                    <br>
+                    <input type="submit" name="submit" id="submit">
+                </fieldset>
+            </form>
+        </div>
+</body>
+</html>
